@@ -1,0 +1,10 @@
+<div *ngFor="let question of Questions">
+    {{question.question}}
+    <div *ngFor="let answers of question.answerList">
+        <input type="checkbox" value="answers.value" [(ngModel)]="checkArray[answers.key+question.id]"> {{answers.value}}
+    </div>
+</div>
+
+<div class="container">
+    <button mat-button (click)="validateAnswers();" class="btnLeft">Validar</button>
+</div>

@@ -1,0 +1,37 @@
+[{
+        "id": "1",
+        "question": "Cuanto es 2+2?",
+        "answerList": [
+            { "key": "a", "value": "63" },
+            { "key": "b", "value": "4" },
+            { "key": "c", "value": "98" },
+            { "key": "d", "value": "La respuesta esta en tu corazón" }
+        ],
+        "answer": ["b1"],
+        "badAnswer": ["a1", "c1", "d1"]
+    },
+    {
+        "id": "2",
+        "question": "Cual es la capita del USA?",
+        "answerList": [
+            { "key": "a", "value": "New York" },
+            { "key": "b", "value": "Medellín" },
+            { "key": "c", "value": "Washington" },
+            { "key": "d", "value": "ninguna de las anteriores" }
+        ],
+        "answer": ["c2"],
+        "badAnswer": ["a2", "b2", "d2"]
+    },
+    {
+        "id": "3",
+        "question": "Que colores tiene la bandera de Japon?",
+        "answerList": [
+            { "key": "a", "value": "Rojo" },
+            { "key": "b", "value": "Verde" },
+            { "key": "c", "value": "Amarillo" },
+            { "key": "d", "value": "Blanco" }
+        ],
+        "answer": ["a3", "d3"],
+        "badAnswer": ["b3", "c3"]
+    }
+]
